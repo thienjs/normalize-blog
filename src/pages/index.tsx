@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Link from 'next/link'
 
 export default function Index() {
   return (
@@ -15,8 +16,8 @@ export default function Index() {
           <h1>
             Hello, I'm Thien<span className="fancy">.</span>
           </h1>
-          <span className="handle">hi@thien.me</span>
-          <h2>Check out my Blog</h2>
+          <span className="handle">javascript enthusiast</span>
+          <p>reach me at <a href={`mailto:hi@thien.me`}>hi@thien.me</a></p>
           <SocialList />
         </div>
       </div>
