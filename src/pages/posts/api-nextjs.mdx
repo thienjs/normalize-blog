@@ -1,0 +1,33 @@
+---
+slug: api-nextjs
+title: Nextjs API methods
+date: 2021-03-08
+author: thien
+tags:
+  - js
+  - react
+---
+
+```js
+export async function getStaticProps(context) {
+  return {
+    props: {}
+  };
+}
+```
+
+then we add try catch
+
+```js
+export async function getStaticProps(context) {
+  try {
+    const res = await fetch('');
+    const data = await res.json();
+  } catch (err) {
+    console.error(err);
+  }
+  return {
+    props: {}
+  };
+}
+```

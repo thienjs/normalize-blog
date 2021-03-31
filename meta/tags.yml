@@ -13,3 +13,17 @@ tags:
     name: markdown
   - slug: test
     name: test
+  - slug: js
+    name: js
+  - slug: react
+    name: react
+  - slug: watercooler
+    name: watercooler
+  - slug: cheatsheet
+    name: cheatsheet
+  - slug: career
+    name: career
+  - slug: hooks
+    name: hooks
+  - slug: notes
+    name: notes
